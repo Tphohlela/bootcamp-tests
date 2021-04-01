@@ -21,7 +21,7 @@ describe('This unit test is for the mostProfitableDepartment function' , functio
     }); 
 
 
-    it('should return least profitable department' , function(){
+   /* it('should return least profitable department' , function(){
         
 
         assert.deepEqual(mostProfitableDepartment([{department: 'hardware', sales: 4500, day: 'Monday'},
@@ -40,7 +40,7 @@ describe('This unit test is for the mostProfitableDepartment function' , functio
         {department: 'outdoor', sales: 12006, day: 'Friday'},
         {department: 'carpentry', sales: 16109, day: 'Friday'}]), 'hardware');
 
-    }); 
+    }); */
 
     it('should return most profitable day' , function(){
         
